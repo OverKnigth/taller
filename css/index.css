@@ -1,0 +1,88 @@
+body{
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.nintendo-nav{
+    background-color: #E74646;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.tarjeta{
+    text-align: center;
+    align-items: center;
+}
+
+.tarjetas-2{
+    align-items: center;
+}
+
+.final{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columna{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+.textos{
+    padding: 10px;
+}
+
+.container-tarjetas{
+    display: flex;
+    text-align: center;
+}
+
+.tarjeta{
+    flex: 0 0 18rem;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.container-final{
+    background-color: #E74646;
+    display: flex;
+    padding: 10px;
+}
+
+.info-1{
+    flex: 0 0 18rem;
+    color: white;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.info-1 a{
+    color: antiquewhite;
+}
+
+.info-1 a:hover{
+    color: #E6BAA3;
+}
+
+.col{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.not{
+    background-color: #E74646;
+    color: whitesmoke;
+}
+
+.tend{
+    background-color: #E74646;
+    color: whitesmoke;
+}
+
+.carousel-inner{
+    object-fit: cover;
+}

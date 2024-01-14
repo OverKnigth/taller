@@ -1,0 +1,72 @@
+body{
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.nintendo-nav{
+    background-color: #E74646;
+    padding: 10px;
+    color: antiquewhite;
+}
+.container-ge1{
+    text-align: center;
+}
+
+.col-p{
+    flex: 0 0 18rem;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.container-tar2{
+    display: flex;
+    text-align: center;
+}
+
+.poketarje{
+    flex: 0 0 18rem;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.col-i{
+    flex: 0 0 18rem;
+    margin-right: 10px;
+    margin-left: 190px;
+}
+
+.pokemon{
+    background-color: #F8E559;
+}
+.mario{
+    background-color: #F46060;
+}
+.zelda{
+    background-color: #D1EAA3;
+}
+
+.intro{
+    background-color: #F1F7B5;
+}
+
+.container-final{
+    background-color: #E74646;
+    display: flex;
+    padding: 10px;
+}
+
+.info-1{
+    flex: 0 0 18rem;
+    color: white;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.info-1 a{
+    color: antiquewhite;
+}
+
+.col img{
+    text-align: center;
+    margin-left: 100px;
+}

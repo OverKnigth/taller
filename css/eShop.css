@@ -1,0 +1,64 @@
+body{
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.nintendo-nav{
+    background-color: #E74646;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.intro{
+    background-color: #FB8B24;
+    color: whitesmoke;
+}
+
+.container-final{
+    background-color: #E74646;
+    display: flex;
+    padding: 10px;
+}
+
+.info-1{
+    flex: 0 0 18rem;
+    color: white;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.info-1 a{
+    color: antiquewhite;
+}
+
+.info-1 a:hover{
+    color: #E6BAA3;
+}
+
+.col{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.container-tarjetas{
+    display: flex;
+    text-align: center;
+}
+
+.tarjeta{
+    flex: 0 0 18rem;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.pop{
+    background-color: #FFFAD7;
+}
+
+.nuev{
+    background-color: #FBFACD;
+}
+
+.gratis{
+    background-color: #FFFAD7;
+}
