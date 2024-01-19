@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formuJ.css">
+    <link rel="icon" href="imagenes/seta.png" type="image/x-icon" />
+    <title>Comprar Juegos</title>
+</head>
+<body>
+    <h1>Realizar Compra</h1>
+    <form action="#">
+        <label for="nombreJ">Nombre: </label>
+        <input type="text" id="nombreJ" name="nombre">
+        <br><br>
+        <label for="apellidoJ">Apellido: </label>
+        <input type="text" id="apellidoJ" name="apellido">
+        <br><br>
+        <label for="emailJ">Correo electrónico: </label>
+        <input type="email" id="emailJ" name="email">
+        <br><br>
+        <label for="telef">Teléfono: </label>
+        <input type="text" id="telef" name="telefono">
+        <br><br>
+        <label for="pagoOp">Opción de pago: </label>
+        <select name="pago" id="pagoOp" onchange="mostrarOpcionesPago()">
+            <option value="Sleccionar">Seleccionar</option>
+            <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+            <option value="Paypal">PayPal</option>
+            <option value="Transferencia">Transferencia</option>
+        </select> <br><br>
+        <div id="opcionesTarjeta" style="display: none;">
+            <label for="numTar">Número de Tarjeta: </label>
+            <input type="text" id="numTar" name="numeroTar" placeholder="Nº Tarjeta">
+            <br><br>
+            <label for="fechaV">Fecha de Vencimiento: </label>
+            <input type="text" id="fechaV" name="fechaVen" placeholder="MM/YY">
+            <br><br>
+            <label for="cvv">CVV: </label>
+            <input type="text" id="cvv" name="cvv" placeholder="XXX">
+            <br><br>
+        </div>
+        <div id="opcionesPayPal" style="display:none;">
+            <label for="correoPay">Correo Electrónico de PayPal: </label>
+            <input type="email" id="correoPay" name="correoPay" placeholder="Correo PayPal">
+            <br><br>
+        </div>
+        <div id="opcionesTransferencia" style="display:none;">
+            <label for="nombreBan">Nombre del Banco:</label>
+            <input type="text" id="nombreBan" name="nombreBan" placeholder="Nombre de su Banco">
+            <br><br>
+            <label for="numeroCu">Número de Cuenta: </label>
+            <input type="text" id="numeroCu" name="numeroCu" placeholder="Nº Cuenta">
+            <br><br>
+            <label for="codigoSw">Código SWIFT/BIC: </label>
+            <input type="text" id="codigoSw" name="codigoSw" placeholder="Código Swift">
+            <br><br>
+        </div> 
+        <label for="direct">Dirección: </label>
+        <input type="text" id="direct" name="direccion">
+        <br><br>
+        <button type="button" onclick="enviarFormulario()">Registrar</button>
+    </form>
+    
+    <div id="resultado">
+    </div>
+
+    <!--SCRIPT-->
+    <script src="js/formularioJ.js"></script>
+</body>
+</html>
