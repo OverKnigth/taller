@@ -68,7 +68,6 @@ const enviarFormulario = () => {
             '<br>Fecha de Vencimiento: ' + fechaVencimiento +
             '<br>CVV: ' + cvv;
 
-        // Aquí puedes agregar lógica para registrar la información de tarjeta
     } else if (metodoPago === 'Paypal') {
         // Validaciones específicas para PayPal
         if (!correoPayPal.match(/^\S+@\S+\.\S+$/)) {
@@ -78,7 +77,6 @@ const enviarFormulario = () => {
 
         resultado.innerHTML += '<br>Correo Electrónico de PayPal: ' + correoPayPal;
 
-        // Aquí puedes agregar lógica para registrar la información de PayPal
     } else if (metodoPago === 'Transferencia') {
         // Validaciones específicas para Transferencia
         if (!numeroCuenta.match(/^\d{10}$/) ||
