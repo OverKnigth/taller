@@ -11,6 +11,9 @@ body{
 .container-ge1{
     text-align: center;
 }
+.container-ge2{
+    text-align: center;
+}
 
 .col-p{
     flex: 0 0 18rem;
@@ -25,7 +28,7 @@ body{
 
 .poketarje{
     flex: 0 0 18rem;
-    margin-right: 10px;
+    margin-right: 100px;
     margin-left: 100px;
 }
 
