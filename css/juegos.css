@@ -23,19 +23,20 @@ body{
 
 .container-tar2{
     display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .poketarje{
     flex: 0 0 18rem;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .col-i{
     flex: 0 0 18rem;
-    margin-right: 10px;
-    margin-left: 190px;
+    margin-right: 90px;
+    margin-left: 100px;
 }
 
 .pokemon{
