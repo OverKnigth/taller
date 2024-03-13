@@ -29,13 +29,13 @@ body{
 
 .poketarje{
     flex: 0 0 18rem;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .col-i{
     flex: 0 0 18rem;
-    margin-right: 90px;
+    margin-right: 110px;
     margin-left: 100px;
 }
 
